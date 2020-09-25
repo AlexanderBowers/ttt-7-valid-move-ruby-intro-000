@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
-board[index] = taken && valid_range
+board[index] = position_taken? && valid_range?
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
