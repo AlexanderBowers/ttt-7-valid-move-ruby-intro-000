@@ -13,5 +13,4 @@ end
 def valid_range?(input)
   good_range = (input < 0  || input > 8)
     return good_range
-  end
 end
