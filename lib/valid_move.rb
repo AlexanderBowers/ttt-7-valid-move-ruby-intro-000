@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def valid_move?(input)
+def valid_move?(taken, good_range)
   valid = taken && good_range
   return valid
 end
