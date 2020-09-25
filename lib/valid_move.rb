@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(input)
-  valid = position_taken?(board, input) && valid_range?
+  valid = taken && good_range
   return valid
 end
 
@@ -12,8 +12,8 @@ end
 
 def valid_range?(input)
   if (input < 0  || input > 8)
-    valid = false
+    good_range = false
   else
-    valid = true
-    return valid
+    good_range  = true
+    return good_range
 end
