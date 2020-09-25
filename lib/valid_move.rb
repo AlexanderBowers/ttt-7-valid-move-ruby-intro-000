@@ -1,6 +1,6 @@
 # code your #valid_move? method here
-def valid_move?(taken, good_range)
-valid = taken && good_range
+def valid_move?(board, index)
+board[index] = taken && valid_range
 return valid
 end
 
