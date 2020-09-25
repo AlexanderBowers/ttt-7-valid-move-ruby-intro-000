@@ -15,4 +15,4 @@ def valid_range?(input)
   else
     valid = true
     return valid
-  
+end
