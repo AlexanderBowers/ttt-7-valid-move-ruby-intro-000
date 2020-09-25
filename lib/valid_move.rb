@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(taken, good_range)
-  if (taken, good_range)
+  if (taken && good_range)
     return true
   else return false
   end
