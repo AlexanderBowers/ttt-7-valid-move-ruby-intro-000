@@ -16,5 +16,5 @@ def valid_range?(input)
   else
     good_range  = true
     return good_range
-end
+  end
 end
